@@ -1,8 +1,4 @@
-<div align="center">
-  <img src="assets/images/profile.jpg" alt="Supreeth Reddy Mamilla" style="width: 200px; height: 200px; object-fit: cover; object-position: top; border-radius: 50%; margin-bottom: 20px;">
-  
-  # Supreeth Reddy Mamilla, PMP
-  **Strategic Lead Technology Program Manager**
+
   
   <br>
   
