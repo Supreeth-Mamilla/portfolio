@@ -3,10 +3,10 @@ layout: default
 ---
 
 <div align="center">
-  <img src="assets/profile.jpeg" alt="Supreeth Reddy Mamilla" width="220" style="border-radius: 50%; border: 4px solid #2c3e50; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 20px;">
+  <img src="assets/profile.jpeg" alt="Supreeth Reddy Mamilla" width="220" style="border-radius: 50%; margin-bottom: 20px;">
   
   <h1>Supreeth Reddy Mamilla, PMP</h1>
-  <h3>Senior IT Business Analyst | Digital Transformation | Agile Delivery</h3>
+  <p><b>Senior IT Business Analyst | Digital Transformation | Agile Delivery</b></p>
   
   <p>
     <a href="https://www.linkedin.com/in/supreethmamilla" target="_blank">
@@ -39,21 +39,50 @@ My background spans the financial services, retail, and healthcare sectors, wher
 
 ## 💼 Key Projects & Experience
 
-<table width="100%" style="border-collapse: collapse; border: none;">
-  <tr>
-    <td width="50%" valign="top" style="padding: 15px; border: 1px solid #e1e4e8; border-radius: 8px;">
-      <h3>🏛️ Auto Desk | Cloud Treasury Migration</h3>
-      <em>Senior IT Business Analyst (June 2025 – Present)</em><br><br>
-      Spearheading backlog management and requirements discovery for a legacy-to-cloud migration of a treasury management system supporting $45B in assets. Designed rigorous traceability matrices that have reduced post-deployment defect leakage by 22%. Managed complex API data mapping with third-party vendors to ensure strict NACHA compliance.<br><br>
-      <strong>Core Focus:</strong><br>
-      <code>Agile/Scrum</code> <code>API Integrations</code> <code>Visio</code> <code>Treasury Operations</code>
-    </td>
-    <td width="50%" valign="top" style="padding: 15px; border: 1px solid #e1e4e8; border-radius: 8px;">
-      <h3>📈 CGS | Wealth Portfolio Dashboard</h3>
-      <em>Functional Consultant BI (Jan 2024 – May 2025)</em><br><br>
-      Drove the end-to-end requirements elicitation for a new client-facing portfolio dashboard, resulting in a 35% increase in digital user engagement post-launch. Authored 150+ granular user stories with strict BDD/Gherkin acceptance criteria. Re-engineered the client onboarding workflow, saving wealth advisors an average of 15 hours per week.<br><br>
-      <strong>Core Focus:</strong><br>
-      <code>BDD/Gherkin</code> <code>Jira</code> <code>UAT Coordination</code> <code>Workflow Optimization</code>
+### 🏛️ Auto Desk | Cloud Treasury Migration
+*Senior IT Business Analyst (June 2025 – Present)*
+
+Spearheading backlog management and requirements discovery for a legacy-to-cloud migration of a treasury management system supporting $45B in assets. Designed rigorous traceability matrices that have reduced post-deployment defect leakage by 22%. Managed complex API data mapping with third-party vendors to ensure strict NACHA compliance.
+
+> **Core Focus:** `Agile/Scrum` | `API Integrations` | `Visio` | `Treasury Operations`
+
+### 📈 CGS | Wealth Portfolio Dashboard
+*Functional Consultant BI (Jan 2024 – May 2025)*
+
+Drove the end-to-end requirements elicitation for a new client-facing portfolio dashboard, resulting in a 35% increase in digital user engagement post-launch. Authored 150+ granular user stories with strict BDD/Gherkin acceptance criteria. Re-engineered the client onboarding workflow, saving wealth advisors an average of 15 hours per week.
+
+> **Core Focus:** `BDD/Gherkin` | `Jira` | `UAT Coordination` | `Workflow Optimization`
+
+### 🏥 DaVita | Telehealth MVP Integration
+*Business Analyst (Oct 2020 – Dec 2023)*
+
+Led workflow analysis and requirements gathering for a critical telehealth platform rollout during the COVID-19 pandemic. Successfully launched the MVP in just 6 weeks, scaling the platform to support over 5,000 virtual visits monthly. Executed root-cause analysis on HL7 interface errors, defining new business rules that recovered $1.2M in delayed revenue.
+
+> **Core Focus:** `HL7 Interfaces` | `Clinical Workflows` | `Change Control (CCB)`
+
+### 🛒 Myntra | CRM Data Migration & Analytics
+*Project Business Analyst (Jan 2016 – Feb 2018)*
+
+Managed the cleansing and standardization of legacy customer data, successfully migrating 4 million records into a centralized CRM database. Built automated RFM (Recency, Frequency, Monetary) segmentation models using advanced SQL to track churn and drive targeted retention marketing campaigns.
+
+> **Core Focus:** `Advanced SQL` | `Data Migration` | `CRM` | `Predictive Modeling`
+
+---
+
+## 🛠️ Technical Arsenal
+
+* **Methodologies:** Agile, Scrum, Kanban, Hybrid, Waterfall, Behavior-Driven Development (BDD)
+* **Business Analysis:** Requirement Elicitation, BRDs/FSDs, User Stories (Gherkin), Process Mapping, Traceability Matrices
+* **Tools & Platforms:** Jira, Azure DevOps, Snowflake, Tableau, SQL, ServiceNow, Visio, LucidChart, Balsamiq
+* **Domain Expertise:** Commercial Banking, Wealth Management, Clinical Workflows, API Integrations, Regulatory Compliance
+
+---
+
+## 🎓 Education & Credentials
+
+* **Master of Science in Business Analytics** | Western New England University, Springfield, MA
+* **Project Management Professional (PMP)** | Project Management Institute (PMI)
+* **Generative AI for Project Managers** | Certification      <code>BDD/Gherkin</code> <code>Jira</code> <code>UAT Coordination</code> <code>Workflow Optimization</code>
     </td>
   </tr>
   <tr>
