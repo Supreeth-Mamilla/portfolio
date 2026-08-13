@@ -2,9 +2,6 @@
 layout: default
 ---
 
-<div align="center">
-  <img src="assets/profile.jpeg" alt="Supreeth Reddy Mamilla" width="220" style="border-radius: 50%; margin-bottom: 20px;">
-  
   <h1>Supreeth Reddy Mamilla, PMP</h1>
   <p><b>Senior IT Business Analyst | Digital Transformation | Agile Delivery</b></p>
   
