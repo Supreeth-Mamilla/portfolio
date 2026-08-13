@@ -7,6 +7,9 @@
   </a>
   <a href="mailto:supreethreddymamilla@gmail.com">
     <img src="https://img.shields.io/badge/-Email-%23D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <a href="https://medium.com/@supreethreddymamilla"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"></a>
+  <a href="https://www.credly.com/users/supreeth-reddy-mamilla"><img src="https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white" alt="Credly"></a>
+  
   </a>
 </p>
 
