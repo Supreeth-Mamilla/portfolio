@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Supreeth Reddy Mamilla — Advanced Business Analyst, PMP</title>
+<meta name="description" content="Advanced Business Analyst with 10+ years across banking, healthcare, and retail — Agile/Scrum delivery, requirements engineering, and end-to-end SDLC governance." />
+<meta name="theme-color" content="#0A1220" />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Supreeth Reddy Mamilla — Advanced Business Analyst, PMP" />
+<meta property="og:description" content="Turning regulatory complexity and legacy systems into requirements teams can build — across banking, healthcare, and retail." />
+<meta property="og:image" content="assets/profile.jpg" />
+
+<link rel="icon" href="assets/profile.jpg" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+<style>
+  /* ============================= TOKENS ============================= */
+  :root{
+    --ink: #0A1220;
+    --panel: #101B2E;
+    --panel-alt: #0D1626;
+    --line: #22314F;
+    --line-soft: rgba(34,49,79,.5);
+    --text: #E9EDF4;
+    --muted: #93A2BC;
+    --blue: #5B9BDB;
+    --blue-soft: rgba(91,155,219,.12);
+    --gold: #CDA75E;
+    --gold-soft: rgba(205,167,94,.14);
+
+    --font-display: 'Space Grotesk', sans-serif;
+    --font-body: 'IBM Plex Sans', sans-serif;
+    --font-mono: 'IBM Plex Mono', monospace;
+
+    --maxw: 1120px;
+    --nav-h: 68px;
+  }
+
+  *,*::before,*::after{ box-sizing:border-box; }
+  html{ scroll-padding-top: calc(var(--nav-h) + 12px); }
+  @media (prefers-reduced-motion: no-preference){ html{ scroll-behavior: smooth; } }
+
+  body{
+    margin:0;
+    background:
+      radial-gradient(1100px 620px at 82% -8%, rgba(91,155,219,.10), transparent 60%),
+      radial-gradient(900px 500px at -10% 12%, rgba(205,167,94,.06), transparent 55%),
+      var(--ink);
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* faint drafting-paper grid across the whole page */
+  body::before{
+    content:"";
+    position:fixed; inset:0; z-index:0; pointer-events:none;
+    background-image:
+      linear-gradient(var(--line-soft) 1px, transparent 1px),
+      linear-gradient(90deg, var(--line-soft) 1px, transparent 1px);
+    background-size: 42px 42px;
+    opacity:.28;
+    mask-image: linear-gradient(180deg, rgba(0,0,0,.9), rgba(0,0,0,.35) 60%, transparent 92%);
+  }
+
+  h1,h2,h3{ font-family: var(--font-display); margin:0; color:var(--text); letter-spacing:-.01em; }
+  p{ margin:0; }
+  a{ color:inherit; text-decoration:none; }
+  ul{ margin:0; padding:0; list-style:none; }
+  img{ max-width:100%; display:block; }
+  section{ position:relative; z-index:1; }
+
+  :focus-visible{ outline: 2px solid var(--gold); outline-offset: 3px; border-radius:2px; }
+
+  .container{ max-width: var(--maxw); margin-inline:auto; padding-inline: clamp(20px, 5vw, 48px); }
+
+  .mono{ font-family: var(--font-mono); }
+
+  .tag{
+    display:inline-flex; align-items:center; gap:8px;
+    font-family: var(--font-mono); font-size: 11.5px; letter-spacing: .12em;
+    text-transform: uppercase; color: var(--gold);
+    border: 1px solid var(--gold-soft); background: var(--gold-soft);
+    padding: 6px 12px; border-radius: 2px;
+  }
+  .tag::before{ content:""; width:6px; height:6px; background:var(--gold); border-radius:50%; flex:none; }
+
+  /* section header = "drawing sheet" label */
+  .sec-head{ display:flex; flex-direction:column; gap:14px; margin-bottom: 48px; }
+  .sec-num{
+    font-family: var(--font-mono); font-size:12px; letter-spacing:.14em; color:var(--muted);
+    text-transform:uppercase; display:flex; align-items:center; gap:12px;
+  }
+  .sec-num::after{ content:""; height:1px; flex:1; background:var(--line); }
+  .sec-head h2{ font-size: clamp(1.6rem, 3vw, 2.35rem); font-weight:600; max-width: 46ch; }
+  .sec-head .lede{ color:var(--muted); max-width:60ch; font-size:1.02rem; }
+
+  .btn{
+    display:inline-flex; align-items:center; gap:8px;
+    font-family: var(--font-body); font-weight:600; font-size:.95rem;
+    padding: 12px 20px; border-radius:3px; border:1px solid transparent; cursor:pointer;
+    transition: transform .15s ease, background .15s ease, border-color .15s ease;
+  }
+  .btn-primary{ background:var(--gold); color:#1A1406; }
+  .btn-primary:hover{ transform: translateY(-1px); background:#dab569; }
+  .btn-ghost{ border-color: var(--line); color:var(--text); }
+  .btn-ghost:hover{ border-color:var(--blue); color:var(--blue); transform: translateY(-1px); }
+
+  /* ============================= NAV ============================= */
+  header.nav{
+    position:fixed; top:0; left:0; right:0; z-index:50;
+    height: var(--nav-h);
+    display:flex; align-items:center;
+    background: rgba(10,18,32,.72);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid transparent;
+    transition: border-color .25s ease, background .25s ease;
+  }
+  header.nav.scrolled{ border-bottom-color: var(--line); background: rgba(10,18,32,.92); }
+  .nav-inner{ width:100%; display:flex; align-items:center; justify-content:space-between; gap:16px; }
+  .brand{ display:flex; align-items:center; gap:10px; font-family:var(--font-display); font-weight:700; letter-spacing:.02em; }
+  .brand-avatar{
+    width:30px; height:30px; border-radius:50%; object-fit:cover;
+    border:1.5px solid var(--gold); flex:none;
+  }
+  .brand-fallback{
+    width:30px; height:30px; border-radius:50%; border:1.5px solid var(--gold);
+    display:none; align-items:center; justify-content:center;
+    font-family:var(--font-mono); font-size:11px; color:var(--gold); flex:none;
+  }
+  .nav-links{ display:flex; align-items:center; gap:30px; }
+  .nav-links a{
+    font-size:.86rem; color:var(--muted); font-weight:500; letter-spacing:.02em;
+    padding:6px 2px; border-bottom:1px solid transparent; transition:color .15s ease, border-color .15s ease;
+  }
+  .nav-links a:hover, .nav-links a.active{ color:var(--text); border-color: var(--gold); }
+  .nav-cta{ display:flex; align-items:center; gap:14px; }
+  .nav-toggle{
+    display:none; background:none; border:1px solid var(--line); border-radius:3px;
+    width:38px; height:38px; align-items:center; justify-content:center; cursor:pointer; color:var(--text);
+  }
+
+  @media (max-width: 860px){
+    .nav-links{
+      position:fixed; top:var(--nav-h); left:0; right:0; bottom:0;
+      background: var(--ink); flex-direction:column; align-items:flex-start; gap:0;
+      padding: 18px clamp(20px,6vw,40px); transform: translateY(-8px);
+      opacity:0; pointer-events:none; transition: opacity .2s ease, transform .2s ease;
+      border-top:1px solid var(--line);
+    }
+    .nav-links.open{ opacity:1; pointer-events:auto; transform:translateY(0); }
+    .nav-links a{ width:100%; padding:16px 0; border-bottom:1px solid var(--line-soft); font-size:1rem; }
+    .nav-cta .btn-ghost{ display:none; }
+    .nav-toggle{ display:inline-flex; }
+  }
+
+  /* ============================= HERO ============================= */
+  .hero{ padding-top: calc(var(--nav-h) + 64px); padding-bottom:80px; }
+  .hero-grid{ display:grid; grid-template-columns: 1.05fr .95fr; gap: 48px; align-items:center; }
+  .hero-avatar{
+    width:88px; height:88px; border-radius:50%; object-fit:cover;
+    border:2px solid var(--gold); margin-bottom:22px; box-shadow: 0 0 0 6px var(--gold-soft);
+  }
+  .hero-avatar-fallback{
+    width:88px; height:88px; border-radius:50%; border:2px solid var(--gold);
+    box-shadow: 0 0 0 6px var(--gold-soft); margin-bottom:22px;
+    display:none; align-items:center; justify-content:center;
+    font-family:var(--font-mono); font-size:26px; color:var(--gold);
+  }
+  .hero h1{ font-size: clamp(2.3rem, 5.4vw, 3.9rem); font-weight:700; margin: 16px 0 18px; line-height:1.05; }
+  .hero .subhead{ font-size: clamp(1rem, 1.6vw, 1.18rem); color:var(--muted); max-width:52ch; margin-bottom:30px; }
+  .hero-ctas{ display:flex; flex-wrap:wrap; gap:14px; margin-bottom:44px; }
+  .hero-stats{ display:flex; gap:0; border-top:1px solid var(--line); padding-top:22px; max-width:460px; }
+  .hero-stats > div{ flex:1; padding-right:18px; position:relative; }
+  .hero-stats > div:not(:last-child)::after{
+    content:""; position:absolute; right:8px; top:2px; bottom:2px; width:1px; background:var(--line);
+  }
+  .hero-stats .num{ display:block; font-family:var(--font-mono); font-weight:600; font-size:1.35rem; color:var(--gold); }
+  .hero-stats .cap{ display:block; font-size:.74rem; color:var(--muted); text-transform:uppercase; letter-spacing:.06em; margin-top:4px; }
+
+  .diagram-wrap{ display:flex; flex-direction:column; align-items:center; gap:14px; }
+  .diagram-cap{ font-family:var(--font-mono); font-size:.76rem; color:var(--muted); letter-spacing:.04em; text-align:center; }
+  .diagram-cap b{ color:var(--muted); font-weight:600; }
+
+  @media (max-width: 900px){
+    .hero-grid{ grid-template-columns: 1fr; }
+    .diagram-wrap{ order:-1; max-width:420px; margin-inline:auto; }
+  }
+
+  /* ============================= ABOUT ============================= */
+  .about{ padding-block: 90px; border-top:1px solid var(--line); }
+  .about-grid{ display:grid; grid-template-columns: 1.15fr .85fr; gap:56px; }
+  .about p + p{ margin-top:16px; }
+  .about-text{ color:var(--muted); font-size:1.02rem; }
+  .about-text strong{ color:var(--text); font-weight:600; }
+
+  .stat-list{ display:flex; flex-direction:column; gap:0; border-top:1px solid var(--line); }
+  .stat-row{ display:flex; align-items:baseline; gap:18px; padding:18px 0; border-bottom:1px solid var(--line); }
+  .stat-row .num{ font-family:var(--font-mono); font-weight:600; color:var(--gold); font-size:1.3rem; min-width:84px; }
+  .stat-row .cap{ color:var(--muted); font-size:.92rem; }
+
+  @media (max-width: 860px){ .about-grid{ grid-template-columns:1fr; gap:36px; } }
+
+  /* ============================= EXPERTISE ============================= */
+  .expertise{ padding-block:90px; border-top:1px solid var(--line); }
+  .exp-grid{ display:grid; grid-template-columns: repeat(3, 1fr); gap:1px; background:var(--line); border:1px solid var(--line); }
+  .exp-card{ background: var(--panel); padding:28px 26px; display:flex; flex-direction:column; gap:14px; }
+  .exp-card .ic{ width:34px; height:34px; color:var(--blue); }
+  .exp-card h3{ font-size:1.02rem; font-weight:600; }
+  .exp-card .pills{ display:flex; flex-wrap:wrap; gap:8px; margin-top:4px; }
+  .exp-card .pill{
+    font-family:var(--font-mono); font-size:.74rem; color:var(--muted);
+    border:1px solid var(--line); padding:5px 9px; border-radius:2px; background:var(--panel-alt);
+  }
+  @media (max-width: 900px){ .exp-grid{ grid-template-columns: repeat(2,1fr); } }
+  @media (max-width: 560px){ .exp-grid{ grid-template-columns: 1fr; } }
+
+  /* ============================= EXPERIENCE ============================= */
+  .experience{ padding-block:90px; border-top:1px solid var(--line); }
+  .timeline{ position:relative; padding-left:32px; border-left:1px solid var(--line); display:flex; flex-direction:column; gap:52px; }
+  .tl-item{ position:relative; }
+  .tl-item::before{
+    content:""; position:absolute; left:-37.5px; top:4px; width:11px; height:11px;
+    background:var(--ink); border:2px solid var(--gold); border-radius:50%;
+  }
+  .tl-date{ font-family:var(--font-mono); font-size:.78rem; color:var(--gold); letter-spacing:.05em; text-transform:uppercase; }
+  .tl-role{ font-size:1.2rem; font-weight:600; margin-top:6px; }
+  .tl-org{ color:var(--muted); font-size:.92rem; margin-top:2px; }
+  .tl-list{ margin-top:16px; display:flex; flex-direction:column; gap:10px; }
+  .tl-list li{ position:relative; padding-left:18px; color:var(--muted); font-size:.96rem; }
+  .tl-list li::before{ content:"—"; position:absolute; left:0; color:var(--line); font-family:var(--font-mono); }
+  .fig{ color:var(--gold); font-weight:600; font-family:var(--font-mono); font-size:.95em; }
+
+  /* ============================= EDUCATION ============================= */
+  .education{ padding-block:90px; border-top:1px solid var(--line); }
+  .cred-grid{ display:grid; grid-template-columns: repeat(3,1fr); gap:24px; }
+  .cred-card{ border:1px solid var(--line); background:var(--panel); padding:28px 24px; display:flex; flex-direction:column; gap:14px; }
+  .seal{
+    width:52px; height:52px; border-radius:50%; border:1.5px solid var(--gold);
+    display:flex; align-items:center; justify-content:center; position:relative;
+  }
+  .seal::before{ content:""; position:absolute; inset:5px; border:1px dashed var(--gold-soft); border-radius:50%; }
+  .seal span{ font-family:var(--font-mono); font-weight:700; font-size:.72rem; color:var(--gold); letter-spacing:.02em; }
+  .cred-card h3{ font-size:1.02rem; font-weight:600; }
+  .cred-card .meta{ color:var(--muted); font-size:.88rem; }
+  @media (max-width: 860px){ .cred-grid{ grid-template-columns:1fr; } }
+
+  /* ============================= CONTACT ============================= */
+  .contact{ padding-block:90px; border-top:1px solid var(--line); }
+  .contact-head{ max-width:60ch; margin-bottom:44px; }
+  .contact-head h2{ font-size: clamp(1.7rem, 3.4vw, 2.5rem); font-weight:600; }
+  .contact-head p{ color:var(--muted); margin-top:14px; font-size:1.02rem; }
+  .channel-grid{ display:grid; grid-template-columns: repeat(3, 1fr); gap:1px; background:var(--line); border:1px solid var(--line); }
+  .channel{
+    background:var(--panel); padding:22px 22px; display:flex; align-items:center; gap:14px;
+    transition: background .15s ease;
+  }
+  a.channel:hover{ background:var(--panel-alt); }
+  .channel .ic{ width:20px; height:20px; color:var(--blue); flex:none; }
+  .channel .label{ font-size:.72rem; text-transform:uppercase; letter-spacing:.08em; color:var(--muted); font-family:var(--font-mono); }
+  .channel .value{ font-size:.94rem; margin-top:2px; }
+  @media (max-width: 860px){ .channel-grid{ grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 560px){ .channel-grid{ grid-template-columns: 1fr; } }
+
+  footer{ border-top:1px solid var(--line); padding: 30px clamp(20px,5vw,48px); }
+  .footer-inner{
+    max-width: var(--maxw); margin-inline:auto; display:flex; justify-content:space-between;
+    align-items:center; flex-wrap:wrap; gap:12px; color:var(--muted); font-size:.82rem; font-family:var(--font-mono);
+  }
+  .footer-inner a{ color:var(--muted); }
+  .footer-inner a:hover{ color:var(--gold); }
+
+  /* reveal-on-scroll (respects reduced motion) */
+  .reveal{ opacity:1; transform:none; }
+  @media (prefers-reduced-motion: no-preference){
+    .reveal{ opacity:0; transform: translateY(18px); transition: opacity .65s ease, transform .65s ease; }
+    .reveal.in-view{ opacity:1; transform:none; }
+  }
+</style>
+</head>
+<body>
+<a id="top"></a>
+
+<header class="nav" id="siteNav">
+  <div class="container nav-inner">
+    <a class="brand" href="#top" aria-label="Back to top">
+      <img class="brand-avatar" id="brandAvatar" src="assets/profile.jpg" alt="" onerror="this.style.display='none'; document.getElementById('brandFallback').style.display='flex';" />
+      <span class="brand-fallback" id="brandFallback">SR</span>
+      SRM.
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#expertise">Expertise</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+      <div class="nav-cta">
+        <a class="btn btn-ghost" href="mailto:supreethreddymamilla@gmail.com">Let's talk</a>
+      </div>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><line x1="1" y1="4" x2="17" y2="4"/><line x1="1" y1="9" x2="17" y2="9"/><line x1="1" y1="14" x2="17" y2="14"/></svg>
+    </button>
+  </div>
+</header>
+
+<!-- ============================= HERO ============================= -->
+<section class="hero" id="hero">
+  <div class="container hero-grid">
+    <div class="reveal">
+      <img class="hero-avatar" src="assets/profile.jpg" alt="Supreeth Reddy Mamilla" onerror="this.style.display='none'; document.getElementById('heroFallback').style.display='flex';" />
+      <div class="hero-avatar-fallback" id="heroFallback">SR</div>
+
+      <div class="tag">Advanced Business Analyst · PMP</div>
+      <h1>Supreeth Reddy&nbsp;Mamilla</h1>
+      <p class="subhead">I turn regulatory complexity, legacy platforms, and competing stakeholder priorities into requirements that engineering teams can actually build — across banking, healthcare, and retail.</p>
+
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="#experience">See the experience</a>
+        <a class="btn btn-ghost" href="mailto:supreethreddymamilla@gmail.com">Email me ↗</a>
+      </div>
+
+      <div class="hero-stats">
+        <div><span class="num">10+</span><span class="cap">Years in delivery</span></div>
+        <div><span class="num">3</span><span class="cap">Industries served</span></div>
+        <div><span class="num">PMP</span><span class="cap">PMI certified</span></div>
+      </div>
+    </div>
+
+    <div class="diagram-wrap reveal">
+      <svg viewBox="0 0 560 500" width="100%" role="img" aria-labelledby="diagTitle">
+        <title id="diagTitle">Diagram showing the analyst role bridging business and technology</title>
+        <defs>
+          <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+            <path d="M 26 0 L 0 0 0 26" fill="none" stroke="var(--line-soft)" stroke-width="1"/>
+          </pattern>
+          <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M0,0 L10,5 L0,10 z" fill="var(--blue)"/>
+          </marker>
+        </defs>
+
+        <rect x="8" y="8" width="544" height="484" fill="url(#grid)"/>
+        <rect x="8" y="8" width="544" height="484" fill="none" stroke="var(--line)" stroke-width="1" stroke-dasharray="2 5"/>
+        <path d="M8,22 H22 M22,8 V22" stroke="var(--muted)" stroke-width="1"/>
+        <path d="M552,22 H538 M538,8 V22" stroke="var(--muted)" stroke-width="1"/>
+        <path d="M8,478 H22 M22,492 V478" stroke="var(--muted)" stroke-width="1"/>
+        <path d="M552,478 H538 M538,492 V478" stroke="var(--muted)" stroke-width="1"/>
+
+        <!-- connecting routes, drawn first so nodes sit on top -->
+        <polyline points="124,118 124,200 246,200 246,222" fill="none" stroke="var(--blue)" stroke-width="1.5" marker-end="url(#arrow)"/>
+        <polyline points="314,278 314,300 436,300 436,370" fill="none" stroke="var(--blue)" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+        <text x="130" y="192" font-family="var(--font-mono)" font-size="9" letter-spacing=".5" fill="var(--muted)">REQUIREMENTS &amp; TRACEABILITY</text>
+        <text x="322" y="292" font-family="var(--font-mono)" font-size="9" letter-spacing=".5" fill="var(--muted)">UAT &amp; GOVERNANCE</text>
+
+        <!-- business node -->
+        <rect x="40" y="54" width="168" height="64" rx="2" fill="var(--blue-soft)" stroke="var(--blue)" stroke-width="1.5"/>
+        <text x="124" y="82" text-anchor="middle" font-family="var(--font-mono)" font-weight="600" font-size="13" letter-spacing="1" fill="var(--text)">BUSINESS</text>
+        <text x="124" y="100" text-anchor="middle" font-family="var(--font-mono)" font-size="8.5" fill="var(--muted)">Stakeholders · Regulation</text>
+
+        <!-- technology node -->
+        <rect x="352" y="372" width="168" height="64" rx="2" fill="var(--blue-soft)" stroke="var(--blue)" stroke-width="1.5"/>
+        <text x="436" y="400" text-anchor="middle" font-family="var(--font-mono)" font-weight="600" font-size="13" letter-spacing="1" fill="var(--text)">TECHNOLOGY</text>
+        <text x="436" y="418" text-anchor="middle" font-family="var(--font-mono)" font-size="8.5" fill="var(--muted)">Engineering · Delivery</text>
+
+        <!-- SRM node -->
+        <circle cx="280" cy="250" r="46" fill="var(--gold-soft)" stroke="var(--gold)" stroke-width="1.75"/>
+        <text x="280" y="248" text-anchor="middle" font-family="var(--font-mono)" font-weight="700" font-size="16" fill="var(--gold)">SRM</text>
+        <text x="280" y="264" text-anchor="middle" font-family="var(--font-mono)" font-size="7.5" letter-spacing="1" fill="var(--muted)">TRANSLATOR</text>
+
+        <!-- title block -->
+        <rect x="24" y="436" width="220" height="38" fill="var(--panel)" stroke="var(--line)"/>
+        <text x="34" y="452" font-family="var(--font-mono)" font-size="8" letter-spacing=".3" fill="var(--muted)">DWG NO. SRM—2026 · REV A</text>
+        <text x="34" y="465" font-family="var(--font-mono)" font-size="8" letter-spacing=".3" fill="var(--muted)">SCALE N.T.S. · DRAWN S.R.M.</text>
+      </svg>
+      <p class="diagram-cap"><b>Fig. 1</b> — how I sit between business and technology on a delivery team.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= ABOUT ============================= -->
+<section class="about" id="about">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="sec-num">DWG 01 / Overview</span>
+      <h2>Ten years of turning &ldquo;what the business needs&rdquo; into &ldquo;what gets shipped.&rdquo;</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>I've spent the last decade-plus as the translator in the room — the person who sits between compliance officers, advisors, clinicians, and the engineers building for them, and comes out the other side with requirements nobody has to guess about. My background spans <strong>commercial &amp; community banking, wealth management, healthcare operations, and retail</strong>, which means I've had to learn each domain's language before I could write a single user story in it.</p>
+        <p>Along the way I've led discovery on a <strong>$45B treasury platform migration</strong>, rebuilt an onboarding workflow that was quietly costing advisors 15 hours a week, and traced a $1.2M revenue leak back to a single data-mapping bug. The common thread: get close enough to the process to see what's actually broken, then document it clearly enough that a developer never has to ask <em>"wait, what did they mean by this?"</em></p>
+      </div>
+      <div class="stat-list reveal">
+        <div class="stat-row"><span class="num">$45B</span><span class="cap">Assets under a treasury platform migration I led discovery for</span></div>
+        <div class="stat-row"><span class="num">$1.2M</span><span class="cap">Revenue recovered from one root-cause investigation</span></div>
+        <div class="stat-row"><span class="num">35%</span><span class="cap">Engagement lift on a dashboard I scoped end to end</span></div>
+        <div class="stat-row"><span class="num">150+</span><span class="cap">User stories shipped with Gherkin acceptance criteria</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= EXPERTISE ============================= -->
+<section class="expertise" id="expertise">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="sec-num">DWG 02 / Core Expertise</span>
+      <h2>What I bring to a delivery team.</h2>
+      <p class="lede">Five things I do on repeat, regardless of industry — the toolkit for turning ambiguity into something a team can build against.</p>
+    </div>
+
+    <div class="exp-grid reveal">
+      <div class="exp-card">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><path d="M12 4 L14.2 6.4 M12 4 L9.8 6.4"/><path d="M12 20 L9.8 17.6 M12 20 L14.2 17.6"/></svg>
+        <h3>Methodologies</h3>
+        <div class="pills">
+          <span class="pill">Agile</span><span class="pill">Scrum</span><span class="pill">Kanban</span><span class="pill">Hybrid</span><span class="pill">Waterfall</span><span class="pill">BDD</span>
+        </div>
+      </div>
+      <div class="exp-card">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="3" width="12" height="18" rx="1.5"/><line x1="9" y1="8" x2="15" y2="8"/><line x1="9" y1="12" x2="15" y2="12"/><line x1="9" y1="16" x2="13" y2="16"/></svg>
+        <h3>Business Analysis</h3>
+        <div class="pills">
+          <span class="pill">BRDs / FSDs</span><span class="pill">User Stories</span><span class="pill">Gherkin AC</span><span class="pill">Process Mapping</span><span class="pill">Swimlanes</span><span class="pill">Traceability Matrices</span>
+        </div>
+      </div>
+      <div class="exp-card">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="7" height="7" rx="1"/><rect x="13" y="4" width="7" height="7" rx="1"/><rect x="4" y="13" width="7" height="7" rx="1"/><rect x="13" y="13" width="7" height="7" rx="1"/></svg>
+        <h3>Tools &amp; Platforms</h3>
+        <div class="pills">
+          <span class="pill">Jira</span><span class="pill">ServiceNow</span><span class="pill">Azure DevOps</span><span class="pill">Visio</span><span class="pill">LucidChart</span><span class="pill">SQL</span><span class="pill">Snowflake</span><span class="pill">Tableau</span>
+        </div>
+      </div>
+      <div class="exp-card">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 L20 6 V11 C20 16 16.5 19.5 12 21 C7.5 19.5 4 16 4 11 V6 Z"/><path d="M8.5 12 L11 14.5 L16 9.5"/></svg>
+        <h3>Quality Assurance</h3>
+        <div class="pills">
+          <span class="pill">Test Case Design</span><span class="pill">UAT / SIT</span><span class="pill">Defect Triage</span><span class="pill">Regression Testing</span>
+        </div>
+      </div>
+      <div class="exp-card">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12,3 21,9 3,9"/><line x1="4" y1="20" x2="20" y2="20"/><line x1="6" y1="9" x2="6" y2="20"/><line x1="10" y1="9" x2="10" y2="20"/><line x1="14" y1="9" x2="14" y2="20"/><line x1="18" y1="9" x2="18" y2="20"/></svg>
+        <h3>Domain Expertise</h3>
+        <div class="pills">
+          <span class="pill">Commercial &amp; Community Banking</span><span class="pill">Wealth Management</span><span class="pill">Clinical Workflows</span><span class="pill">HIPAA</span><span class="pill">API Integrations</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= EXPERIENCE ============================= -->
+<section class="experience" id="experience">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="sec-num">DWG 03 / Experience</span>
+      <h2>Where I've done the work.</h2>
+    </div>
+
+    <div class="timeline">
+      <div class="tl-item reveal">
+        <div class="tl-date">June 2025 — Present</div>
+        <div class="tl-role">Senior IT Business Analyst</div>
+        <div class="tl-org">Autodesk · San Jose, CA</div>
+        <ul class="tl-list">
+          <li>Led requirements discovery and backlog management for the migration of a legacy on-premises treasury management system to a cloud platform supporting <span class="fig">$45B</span> in assets.</li>
+          <li>Reduced post-deployment defect leakage by <span class="fig">22%</span> by building a requirements traceability matrix linking business epics to UAT test cases.</li>
+          <li>Mapped current- and future-state process flows in Visio, eliminating <span class="fig">4</span> redundant manual approval steps from the wire transfer workflow.</li>
+        </ul>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-date">Jan 2024 — May 2025</div>
+        <div class="tl-role">Functional Consultant, BI</div>
+        <div class="tl-org">CGS · New York, NY</div>
+        <ul class="tl-list">
+          <li>Led requirements elicitation for a new client-facing portfolio dashboard that lifted digital user engagement <span class="fig">35%</span> in its first quarter.</li>
+          <li>Authored <span class="fig">150+</span> granular user stories with strict BDD/Gherkin acceptance criteria, cutting developer rework and ambiguity.</li>
+          <li>Redesigned the client onboarding workflow, saving advisors an average of <span class="fig">15 hrs</span>/week in manual data entry.</li>
+        </ul>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-date">Oct 2020 — Dec 2023</div>
+        <div class="tl-role">Business Analyst</div>
+        <div class="tl-org">DaVita · New Jersey</div>
+        <ul class="tl-list">
+          <li>Led discovery and workflow design for a telehealth platform launched during COVID-19 — MVP shipped in <span class="fig">6 weeks</span>, scaling to <span class="fig">5,000+</span> virtual visits a month.</li>
+          <li>Traced a recurring claims-denial pattern to an HL7 data-truncation bug and defined the business rules that recovered <span class="fig">$1.2M</span> in delayed revenue.</li>
+        </ul>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-date">Mar 2018 — Sep 2020</div>
+        <div class="tl-role">Project Coordinator</div>
+        <div class="tl-org">LTI Mindtree · Hyderabad, India</div>
+        <ul class="tl-list">
+          <li>Championed the shift from Waterfall documentation to Agile user stories, cutting the requirements-gathering phase by <span class="fig">20%</span>.</li>
+          <li>Tracked WIP jobs across cutting, CNC machining, assembly, and paint departments to keep job routing sheets on schedule.</li>
+        </ul>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-date">Jan 2016 — Feb 2018</div>
+        <div class="tl-role">Junior Business Analyst &amp; Project Business Analyst</div>
+        <div class="tl-org">Myntra · Hyderabad, India</div>
+        <ul class="tl-list">
+          <li>Built RFM segmentation models for the retention marketing team using advanced SQL against daily transactional data.</li>
+          <li>Cleansed and standardized legacy customer datasets, migrating <span class="fig">4M</span> rows into a new centralized CRM.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= EDUCATION ============================= -->
+<section class="education" id="education">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="sec-num">DWG 04 / Credentials</span>
+      <h2>Credentials on record.</h2>
+    </div>
+    <div class="cred-grid reveal">
+      <div class="cred-card">
+        <div class="seal"><span>PMP</span></div>
+        <h3>Project Management Professional</h3>
+        <div class="meta">Issued by PMI</div>
+      </div>
+      <div class="cred-card">
+        <div class="seal"><span>M.S.</span></div>
+        <h3>Business Analytics</h3>
+        <div class="meta">Western New England University, Springfield, MA</div>
+      </div>
+      <div class="cred-card">
+        <div class="seal"><span>AI</span></div>
+        <h3>Generative AI for Project Managers</h3>
+        <div class="meta">Professional certification</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= CONTACT ============================= -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="contact-head reveal">
+      <span class="tag" style="margin-bottom:16px;">DWG 05 / Contact</span>
+      <h2>Have a translation problem worth solving?</h2>
+      <p>I'm always glad to talk through a messy requirements problem, a stalled migration, or Agile war stories. Based in East Windsor, NJ — happy to work with teams anywhere.</p>
+    </div>
+
+    <div class="channel-grid reveal">
+      <a class="channel" href="mailto:supreethreddymamilla@gmail.com">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><polyline points="3,7 12,13 21,7"/></svg>
+        <div><div class="label">Email</div><div class="value">supreethreddymamilla@gmail.com</div></div>
+      </a>
+      <a class="channel" href="tel:+15513376606">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 3h3l1.7 4.5-2.2 1.4a11.3 11.3 0 0 0 5.1 5.1l1.4-2.2L20 13.5v3a1.7 1.7 0 0 1-1.8 1.7A15.8 15.8 0 0 1 4.3 4.8 1.7 1.7 0 0 1 6 3z"/></svg>
+        <div><div class="label">Phone</div><div class="value">(551) 337-6606</div></div>
+      </a>
+      <div class="channel">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-7.4 7-12a7 7 0 0 0-14 0c0 4.6 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>
+        <div><div class="label">Location</div><div class="value">East Windsor, NJ</div></div>
+      </div>
+      <a class="channel" href="https://www.linkedin.com/in/supreethmamilla" target="_blank" rel="noopener">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 L17 7"/><polyline points="8,7 17,7 17,16"/></svg>
+        <div><div class="label">LinkedIn</div><div class="value">/in/supreethmamilla</div></div>
+      </a>
+      <a class="channel" href="https://medium.com/@supreethreddymamilla" target="_blank" rel="noopener">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 L17 7"/><polyline points="8,7 17,7 17,16"/></svg>
+        <div><div class="label">Medium</div><div class="value">@supreethreddymamilla</div></div>
+      </a>
+      <a class="channel" href="https://www.credly.com/users/supreeth-reddy-mamilla" target="_blank" rel="noopener">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 L17 7"/><polyline points="8,7 17,7 17,16"/></svg>
+        <div><div class="label">Credly</div><div class="value">Badges &amp; certifications</div></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <span>© <span id="year"></span> Supreeth Reddy Mamilla · Built by hand, hosted on GitHub Pages.</span>
+    <a href="#top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // mobile nav toggle
+  var toggle = document.getElementById('navToggle');
+  var links = document.getElementById('navLinks');
+  toggle.addEventListener('click', function(){
+    var open = links.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  links.querySelectorAll('a').forEach(function(a){
+    a.addEventListener('click', function(){ links.classList.remove('open'); toggle.setAttribute('aria-expanded','false'); });
+  });
+
+  // nav elevation on scroll
+  var nav = document.getElementById('siteNav');
+  window.addEventListener('scroll', function(){
+    nav.classList.toggle('scrolled', window.scrollY > 8);
+  }, { passive: true });
+
+  // scroll reveal
+  var revealEls = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if (e.isIntersecting){ e.target.classList.add('in-view'); io.unobserve(e.target); }
+      });
+    }, { threshold: 0.12 });
+    revealEls.forEach(function(el){ io.observe(el); });
+  } else {
+    revealEls.forEach(function(el){ el.classList.add('in-view'); });
+  }
+
+  // active nav link on scroll
+  var sections = ['about','expertise','experience','education','contact'].map(function(id){ return document.getElementById(id); });
+  var navAnchors = Array.from(links.querySelectorAll('a[href^="#"]'));
+  if ('IntersectionObserver' in window){
+    var navIo = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        var id = entry.target.getAttribute('id');
+        var link = navAnchors.find(function(a){ return a.getAttribute('href') === '#' + id; });
+        if (link){ link.classList.toggle('active', entry.isIntersecting); }
+      });
+    }, { rootMargin: '-45% 0px -50% 0px' });
+    sections.forEach(function(s){ if (s) navIo.observe(s); });
+  }
+</script>
+</body>
+</html>
