@@ -1,29 +1,10 @@
-# Site Settings
-title: Supreeth Reddy Mamilla | Portfolio
+title: Supreeth Reddy Mamilla
 author: Supreeth Reddy Mamilla
 email: supreethreddymamilla@gmail.com
-description: >-
-  Professional portfolio of Supreeth Reddy Mamilla, PMP. 
-  Senior IT Business Analyst specializing in Agile delivery, SQL, cloud migrations, 
-  and enterprise digital transformation.
+description: Professional portfolio of Supreeth Reddy Mamilla, PMP. Senior IT Business Analyst specializing in Agile delivery and enterprise digital transformation.
 
-# GitHub Repository Settings
-github_username: Supreeth-Mamilla
-repository: Supreeth-Mamilla/portfolio
-
-# Theme Configuration
-# 'cayman' offers a clean, professional, and highly readable aesthetic for technical portfolios.
 theme: jekyll-theme-cayman
 
-# Plugins
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-
-# Build Settings (Excludes backend environment files from the live deployment)
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - LICENSE
