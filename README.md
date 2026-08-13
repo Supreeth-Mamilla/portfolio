@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div align="center">
-  <img src="Gemini_Generated_Image_lbeq23lbeq23lbeq.jpg" alt="Supreeth Reddy Mamilla" width="220" style="border-radius: 50%; border: 4px solid #2c3e50; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 20px;">
+  <img src="profile.jpg" alt="Supreeth Reddy Mamilla" width="220" style="border-radius: 50%; border: 4px solid #2c3e50; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 20px;">
   
   <h1>Supreeth Reddy Mamilla, PMP</h1>
   <h3>Senior IT Business Analyst | Agile/Scrum Expert | Digital Transformation</h3>
