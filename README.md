@@ -1,82 +1,78 @@
----
-layout: default
----
+<h1 align="center">Hi, I'm Supreeth Reddy Mamilla, PMP</h1>
+<h3 align="center">Advanced Business Analyst | Agile/Scrum Expert | Data-Driven Solutions</h3>
 
-  <h1>Supreeth Reddy Mamilla, PMP</h1>
-  <p><b>Senior IT Business Analyst | Digital Transformation | Agile Delivery</b></p>
+<p align="center">
+  <a href="https://www.linkedin.com/in/supreethmamilla" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:supreethreddymamilla@gmail.com">
+    <img src="https://img.shields.io/badge/-Email-%23D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <a href="https://medium.com/@supreethreddymamilla"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"></a>
+  <a href="https://www.credly.com/users/supreeth-reddy-mamilla"><img src="https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white" alt="Credly"></a>
   
-  <p>
-    <a href="https://www.linkedin.com/in/supreethmamilla" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-    </a>
-    <a href="mailto:supreethreddymamilla@gmail.com">
-      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-    </a>
-    <a href="https://medium.com/@supreethreddymamilla" target="_blank">
-      <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium">
-    </a>
-    <a href="https://www.credly.com/users/supreeth-reddy-mamilla" target="_blank">
-      <img src="https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white" alt="Credly">
-    </a>
-  </p>
-  <p><i>📍 East Windsor, NJ | 📱 (551) 277-7066</i></p>
-</div>
-
-<br>
+  </a>
+</p>
 
 ---
 
-## 🎯 About Me
-
-For the past decade, I have operated at the intersection of business strategy and technology. As a certified PMP and Senior IT Business Analyst, I specialize in translating complex regulatory requirements and operational bottlenecks into scalable technical solutions. 
-
-My background spans the financial services, retail, and healthcare sectors, where I have led requirements discovery for enterprise cloud migrations, core banking transformations, and clinical platforms. I advocate heavily for Agile methodologies and Behavior-Driven Development (BDD) because I believe that clear, traceable requirements are the foundation of any successful deployment. My primary focus is always on driving efficiency, accelerating user adoption, and maximizing return on investment for the business.
-
----
-
-## 💼 Key Projects & Experience
-
-### 🏛️ Auto Desk | Cloud Treasury Migration
-*Senior IT Business Analyst (June 2025 – Present)*
-
-Spearheading backlog management and requirements discovery for a legacy-to-cloud migration of a treasury management system supporting $45B in assets. Designed rigorous traceability matrices that have reduced post-deployment defect leakage by 22%. Managed complex API data mapping with third-party vendors to ensure strict NACHA compliance.
-
-> **Core Focus:** `Agile/Scrum` | `API Integrations` | `Visio` | `Treasury Operations`
-
-### 📈 CGS | Wealth Portfolio Dashboard
-*Functional Consultant BI (Jan 2024 – May 2025)*
-
-Drove the end-to-end requirements elicitation for a new client-facing portfolio dashboard, resulting in a 35% increase in digital user engagement post-launch. Authored 150+ granular user stories with strict BDD/Gherkin acceptance criteria. Re-engineered the client onboarding workflow, saving wealth advisors an average of 15 hours per week.
-
-> **Core Focus:** `BDD/Gherkin` | `Jira` | `UAT Coordination` | `Workflow Optimization`
-
-### 🏥 DaVita | Telehealth MVP Integration
-*Business Analyst (Oct 2020 – Dec 2023)*
-
-Led workflow analysis and requirements gathering for a critical telehealth platform rollout during the COVID-19 pandemic. Successfully launched the MVP in just 6 weeks, scaling the platform to support over 5,000 virtual visits monthly. Executed root-cause analysis on HL7 interface errors, defining new business rules that recovered $1.2M in delayed revenue.
-
-> **Core Focus:** `HL7 Interfaces` | `Clinical Workflows` | `Change Control (CCB)`
-
-### 🛒 Myntra | CRM Data Migration & Analytics
-*Project Business Analyst (Jan 2016 – Feb 2018)*
-
-Managed the cleansing and standardization of legacy customer data, successfully migrating 4 million records into a centralized CRM database. Built automated RFM (Recency, Frequency, Monetary) segmentation models using advanced SQL to track churn and drive targeted retention marketing campaigns.
-
-> **Core Focus:** `Advanced SQL` | `Data Migration` | `CRM` | `Predictive Modeling`
+##  Professional Summary
+Results-driven Advanced Business Analyst with over 10 years of experience in the financial services, retail industry, and healthcare sectors.
+* **What I do:** Bridge the gap between business stakeholders and technology teams to deliver enterprise-scale applications, core banking transformations, and mobile solutions.
+* **My Expertise:** Agile/Scrum delivery, requirements elicitation, and end-to-end SDLC governance.
+* **My Impact:** Highly skilled at translating complex regulatory and operational needs into actionable technical specifications that drive efficiency, user adoption, and ROI.
 
 ---
 
-## 🛠️ Technical Arsenal
+##  Core Skills & Expertise
 
-* **Methodologies:** Agile, Scrum, Kanban, Hybrid, Waterfall, Behavior-Driven Development (BDD)
-* **Business Analysis:** Requirement Elicitation, BRDs/FSDs, User Stories (Gherkin), Process Mapping, Traceability Matrices
-* **Tools & Platforms:** Jira, Azure DevOps, Snowflake, Tableau, SQL, ServiceNow, Visio, LucidChart, Balsamiq
-* **Domain Expertise:** Commercial Banking, Wealth Management, Clinical Workflows, API Integrations, Regulatory Compliance
+| Category | Skills |
+| --- | --- |
+| **Methodologies** | Agile, Scrum, Kanban, Hybrid, Waterfall, Behavior-Driven Development (BDD) |
+| **Business Analysis** | Requirement Elicitation, BRDs/FSDs, User Stories, Acceptance Criteria (Gherkin), Process Mapping, Swimlane Diagrams, Wireframing, Traceability Matrices |
+| **Tools** | Jira, ServiceNow, Azure DevOps, Visio, LucidChart, Balsamiq, MS Project, Advanced Excel, SQL, Snowflake, Tableau, BlueCherry ERP |
+| **Quality Assurance** | Test Case Design, UAT/SIT Coordination, Defect Triage, Regression Testing |
+| **Domain Expertise** | Commercial & Community Banking, Wealth Management, Clinical Workflows, Regulatory Compliance, API Integrations, HIPAA Compliance |
 
 ---
 
-## 🎓 Education & Credentials
+##  Professional Experience
 
-* **Master of Science in Business Analytics** | Western New England University, Springfield, MA
-* **Project Management Professional (PMP)** | Project Management Institute (PMI)
-* **Generative AI for Project Managers** | Certification
+###  Auto Desk | San Jose, CA
+**Senior IT Business Analyst** (*June 2025 – Present*)
+* Led requirements discovery and backlog management for the migration of a legacy on-premises treasury management system to a cloud-based platform supporting $45B in assets.
+* Reduced post-deployment defect leakage by 22% by implementing a rigorous requirements traceability matrix linking business epics to specific UAT test cases.
+* Created detailed current-state and future-state process flow diagrams in Visio to identify and eliminate 4 redundant manual approval steps in the wire transfer workflow.
+
+###  CGS | New York, NY
+**Functional Consultant BI** (*Jan 2024 – May 2025*)
+* Drove the requirements elicitation for a new client-facing portfolio dashboard, which ultimately increased digital user engagement by 35% within the first quarter of launch.
+* Wrote over 150 granular user stories with strict BDD/Gherkin acceptance criteria, significantly reducing developer rework and ambiguity.
+* Identified a critical bottleneck in the client onboarding process, designing a streamlined workflow that cut manual data entry time by an average of 15 hours per week per advisor.
+
+###  DaVita | New Jersey
+**Business Analyst** (*Oct 2020 – Dec 2023*)
+* Led discovery and workflow analysis for a telehealth platform integration during the COVID-19 pandemic, launching the MVP in 6 weeks and scaling to support 5,000+ virtual visits per month.
+* Conducted root cause analysis on a recurring claims denial issue, identifying a data truncation error in the HL7 interface and defining business rules that recovered $1.2M in delayed revenue.
+
+###  LTI Mindtree | Hyderabad, India
+**Project Coordinator** (*Mar 2018 – Sep 2020*)
+* Championed the IT department’s transition from heavy Waterfall documentation to Agile user stories, cutting the overall requirements-gathering phase time by 20%.
+* Tracked work-in-progress (WIP) jobs across cutting, CNC machining, assembly, and paint departments to ensure job routing sheets stayed on schedule.
+
+###  Myntra | Hyderabad, India
+**Junior Business Analyst & Project Business Analyst** (*Jan 2016 – Feb 2018*)
+* Extracted and manipulated daily transactional data using advanced SQL to build RFM segmentation models for the retention marketing team.
+* Cleansed and standardized legacy customer datasets using SQL and Excel macros, successfully migrating 4 million rows into a newly established centralized CRM database.
+
+---
+
+## 🎓 Education & Certifications
+
+* 🎓 **Master of Science in Business Analytics** | Western New England University, Springfield, MA
+* 📜 **Project Management Professional (PMP)** | Issued by PMI
+* 📜 **Generative AI for Project Managers**
+
+---
+<p align="center">
+  <i>📍 Based in East Windsor, NJ | 📱 (551) 337-6606 </i>
+</p>
