@@ -1,7 +1,28 @@
-title: Supreeth Reddy Mamilla, PMP
-logo: /assets/images/profile.jpeg
-description: >- # This means to ignore newlines until next key
-  Advanced Business Analyst with over 10 years of experience in financial services, 
-  retail industry, and healthcare sectors. Expert in Agile/Scrum delivery and end-to-end SDLC governance.
-#show_downloads: true
-theme: jekyll-theme-minimal
+# Site Settings
+title: Supreeth Reddy Mamilla - Portfolio #[cite: 1]
+author: Supreeth Reddy Mamilla #[cite: 1]
+email: supreethreddymamilla@gmail.com #[cite: 1]
+description: >-
+  Portfolio of Supreeth Reddy Mamilla, PMP. #[cite: 1]
+  Senior IT Business Analyst specializing in Agile, SQL, Snowflake, and digital transformation. #[cite: 1]
+
+# GitHub Settings
+github_username: Supreeth-Mamilla
+repository: Supreeth-Mamilla/portfolio
+
+# Theme Configuration
+# The 'cayman' theme provides a sophisticated, modern, and clean aesthetic.
+theme: jekyll-theme-cayman
+
+# Plugins to optimize your site for search engines
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Build settings (Excludes backend files from being published to your live site)
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - LICENSE
