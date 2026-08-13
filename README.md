@@ -3,10 +3,10 @@ layout: default
 ---
 
 <div align="center">
-  <img src="profile.jpg" alt="Supreeth Reddy Mamilla" width="220" style="border-radius: 50%; border: 4px solid #2c3e50; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 20px;">
+  <img src="assets/profile.jpeg" alt="Supreeth Reddy Mamilla" width="220" style="border-radius: 50%; border: 4px solid #2c3e50; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 20px;">
   
   <h1>Supreeth Reddy Mamilla, PMP</h1>
-  <h3>Senior IT Business Analyst | Agile/Scrum Expert | Digital Transformation</h3>
+  <h3>Senior IT Business Analyst | Digital Transformation | Agile Delivery</h3>
   
   <p>
     <a href="https://www.linkedin.com/in/supreethmamilla" target="_blank">
@@ -22,7 +22,7 @@ layout: default
       <img src="https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white" alt="Credly">
     </a>
   </p>
-  <p><i>📍 East Windsor, NJ | 📱 (551) 337-6606</i>[cite: 1]</p>
+  <p><i>📍 East Windsor, NJ | 📱 (551) 337-6606</i></p>
 </div>
 
 <br>
@@ -30,34 +30,68 @@ layout: default
 ---
 
 ## 🎯 About Me
-Results-driven **Advanced Business Analyst** with over 10 years of experience in the financial services, retail, and healthcare sectors[cite: 1]. I specialize in bridging the gap between business stakeholders and technology teams to deliver enterprise-scale applications, core banking transformations, and mobile solutions[cite: 1]. Highly skilled at translating complex regulatory and operational needs into actionable technical specifications that drive efficiency, user adoption, and ROI[cite: 1].
+
+For the past decade, I have operated at the intersection of business strategy and technology. As a certified PMP and Senior IT Business Analyst, I specialize in translating complex regulatory requirements and operational bottlenecks into scalable technical solutions. 
+
+My background spans the financial services, retail, and healthcare sectors, where I have led requirements discovery for enterprise cloud migrations, core banking transformations, and clinical platforms. I advocate heavily for Agile methodologies and Behavior-Driven Development (BDD) because I believe that clear, traceable requirements are the foundation of any successful deployment. My primary focus is always on driving efficiency, accelerating user adoption, and maximizing return on investment for the business.
 
 ---
 
-## 💼 Key Projects & Professional Experience
+## 💼 Key Projects & Experience
 
 <table width="100%" style="border-collapse: collapse; border: none;">
   <tr>
     <td width="50%" valign="top" style="padding: 15px; border: 1px solid #e1e4e8; border-radius: 8px;">
       <h3>🏛️ Auto Desk | Cloud Treasury Migration</h3>
       <em>Senior IT Business Analyst (June 2025 – Present)</em><br><br>
-      Led requirements discovery and backlog management for the migration of a legacy on-premises treasury management system to a cloud-based platform supporting $45B in assets[cite: 1]. Reduced post-deployment defect leakage by 22% via rigorous requirements traceability matrices linking business epics to UAT[cite: 1].<br><br>
-      <strong>Technologies & Skills:</strong><br>
-      <code>Agile/Scrum</code> <code>APIs</code> <code>Visio</code> <code>NACHA Compliance</code>[cite: 1]
+      Spearheading backlog management and requirements discovery for a legacy-to-cloud migration of a treasury management system supporting $45B in assets. Designed rigorous traceability matrices that have reduced post-deployment defect leakage by 22%. Managed complex API data mapping with third-party vendors to ensure strict NACHA compliance.<br><br>
+      <strong>Core Focus:</strong><br>
+      <code>Agile/Scrum</code> <code>API Integrations</code> <code>Visio</code> <code>Treasury Operations</code>
     </td>
     <td width="50%" valign="top" style="padding: 15px; border: 1px solid #e1e4e8; border-radius: 8px;">
-      <h3>📈 CGS | Client Portfolio Dashboard</h3>
+      <h3>📈 CGS | Wealth Portfolio Dashboard</h3>
       <em>Functional Consultant BI (Jan 2024 – May 2025)</em><br><br>
-      Drove the requirements elicitation for a new client-facing portfolio dashboard, which ultimately increased digital user engagement by 35% within the first quarter of launch[cite: 1]. Wrote over 150 granular user stories with strict BDD/Gherkin acceptance criteria[cite: 1].<br><br>
-      <strong>Technologies & Skills:</strong><br>
-      <code>BDD/Gherkin</code> <code>Jira</code> <code>UAT Testing</code> <code>Workflow Optimization</code>[cite: 1]
+      Drove the end-to-end requirements elicitation for a new client-facing portfolio dashboard, resulting in a 35% increase in digital user engagement post-launch. Authored 150+ granular user stories with strict BDD/Gherkin acceptance criteria. Re-engineered the client onboarding workflow, saving wealth advisors an average of 15 hours per week.<br><br>
+      <strong>Core Focus:</strong><br>
+      <code>BDD/Gherkin</code> <code>Jira</code> <code>UAT Coordination</code> <code>Workflow Optimization</code>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top" style="padding: 15px; border: 1px solid #e1e4e8; border-radius: 8px;">
       <h3>🏥 DaVita | Telehealth MVP Integration</h3>
       <em>Business Analyst (Oct 2020 – Dec 2023)</em><br><br>
-      Led discovery and workflow analysis for a telehealth platform integration during the COVID-19 pandemic, launching the MVP in 6 weeks and scaling to support 5,000+ virtual visits per month[cite: 1]. Recovered $1.2M in delayed revenue by identifying HL7 interface data truncation errors[cite: 1].<br><br>
+      Led workflow analysis and requirements gathering for a critical telehealth platform rollout during the COVID-19 pandemic. Successfully launched the MVP in just 6 weeks, scaling the platform to support over 5,000 virtual visits monthly. Executed root-cause analysis on HL7 interface errors, defining new business rules that recovered $1.2M in delayed revenue.<br><br>
+      <strong>Core Focus:</strong><br>
+      <code>HL7 Interfaces</code> <code>Clinical Workflows</code> <code>Change Control (CCB)</code>
+    </td>
+    <td width="50%" valign="top" style="padding: 15px; border: 1px solid #e1e4e8; border-radius: 8px;">
+      <h3>🛒 Myntra | CRM Data Migration & Analytics</h3>
+      <em>Project Business Analyst (Jan 2016 – Feb 2018)</em><br><br>
+      Managed the cleansing and standardization of legacy customer data, successfully migrating 4 million records into a centralized CRM database. Built automated RFM (Recency, Frequency, Monetary) segmentation models using advanced SQL to track churn and drive targeted retention marketing campaigns.<br><br>
+      <strong>Core Focus:</strong><br>
+      <code>Advanced SQL</code> <code>Data Migration</code> <code>CRM</code> <code>Predictive Modeling</code>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🛠️ Technical Arsenal
+
+| Category | Technologies & Methodologies |
+| :--- | :--- |
+| **Methodologies** | Agile, Scrum, Kanban, Hybrid, Waterfall, Behavior-Driven Development (BDD) |
+| **Business Analysis** | Requirement Elicitation, BRDs/FSDs, User Stories (Gherkin), Process Mapping, Traceability Matrices |
+| **Tools & Platforms** | Jira, Azure DevOps, Snowflake, Tableau, SQL, ServiceNow, Visio, LucidChart, Balsamiq |
+| **Domain Expertise** | Commercial Banking, Wealth Management, Clinical Workflows, API Integrations, Regulatory Compliance |
+
+---
+
+## 🎓 Education & Credentials
+
+* **Master of Science in Business Analytics** | Western New England University, Springfield, MA
+* **Project Management Professional (PMP)** | Project Management Institute (PMI)
+* **Generative AI for Project Managers** | Certification      Led discovery and workflow analysis for a telehealth platform integration during the COVID-19 pandemic, launching the MVP in 6 weeks and scaling to support 5,000+ virtual visits per month[cite: 1]. Recovered $1.2M in delayed revenue by identifying HL7 interface data truncation errors[cite: 1].<br><br>
       <strong>Technologies & Skills:</strong><br>
       <code>HL7 Interfaces</code> <code>Clinical Workflows</code> <code>Root Cause Analysis</code>[cite: 1]
     </td>
